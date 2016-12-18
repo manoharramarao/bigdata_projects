@@ -59,7 +59,7 @@ public class FakeCallLogReaderSpout implements IRichSpout {
             mobileNumbers.add("1234123403");
             mobileNumbers.add("1234123404");
             Integer localIdx = 0;
-            while (localIdx < 100 && this.idx < 1000){
+            while (localIdx++ < 100 && this.idx++ < 1000){
                 String fromMobileNumber = mobileNumbers.get(randomGenerator.nextInt(4));
                 String toMobileNumber = mobileNumbers.get(randomGenerator.nextInt(4));
                 while(fromMobileNumber == toMobileNumber){

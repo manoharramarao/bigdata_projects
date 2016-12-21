@@ -1,7 +1,3 @@
----
-typora-copy-images-to: ./
----
-
 
 Empty storm template
 ====================
@@ -22,8 +18,7 @@ Copy all the contents of the root directory into your project directory and chan
    2. `$mvn package`
    3. From root dir execute the following command
       1. `$/path/to/storm/bin/storm jar target/projectname-jar-with-dependencies.jar package.of.mainclass.mainclass`
-   4. After doing mvn package, this is how tree would look like
-   5. ![empty_template_tree](./empty_template_tree.png)
+   4. After doing mvn package, this is how tree would look like![empty_template_tree](./empty_template_tree.png)
 
 ## Creating project out of this template
 

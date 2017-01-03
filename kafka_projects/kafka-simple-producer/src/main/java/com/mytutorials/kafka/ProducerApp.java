@@ -14,6 +14,7 @@ public class ProducerApp
 
         if(args.length == 0){
             System.out.println("Enter topic name");
+            return;
         }
         String topicName = args[0].toString();
         Properties props = new Properties();

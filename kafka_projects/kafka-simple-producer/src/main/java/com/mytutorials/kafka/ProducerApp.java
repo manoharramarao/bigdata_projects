@@ -7,10 +7,6 @@ import org.apache.kafka.common.serialization.IntegerDeserializer;
 
 import java.util.Properties;
 
-/**
- * Hello world!
- *
- */
 public class ProducerApp
 {
 

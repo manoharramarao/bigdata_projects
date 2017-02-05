@@ -13,7 +13,7 @@
 
     <groupId>com.empty.template</groupId>
     <artifactId>empty-template</artifactId>
-    <!--<version>1.0-SNAPSHOT</version>-->
+    <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>empty-template</name>
 
@@ -22,6 +22,7 @@
         <!-- see comment below... This fixes an annoyance with intellij -->
         <provided.scope>provided</provided.scope>
         <hbase.version>0.98.4-hadoop2</hbase.version>
+        <storm.version>1.0.2</storm.version>
     </properties>
 
     <profiles>
@@ -74,7 +75,7 @@
         <dependency>
             <groupId>org.apache.storm</groupId>
             <artifactId>storm-core</artifactId>
-            <version>${project.version}</version>
+            <version>${storm.version}</version>
             <!--
               Use "provided" scope to keep storm out of the jar-with-dependencies
               For IntelliJ dev, intellij will load properly.
@@ -84,24 +85,24 @@
         <dependency>
             <groupId>org.apache.storm</groupId>
             <artifactId>storm-core</artifactId>
-            <version>${project.version}</version>
+            <version>${storm.version}</version>
             <type>test-jar</type>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.apache.storm</groupId>
             <artifactId>multilang-javascript</artifactId>
-            <version>${project.version}</version>
+            <version>${storm.version}</version>
         </dependency>
         <dependency>
             <groupId>org.apache.storm</groupId>
             <artifactId>multilang-ruby</artifactId>
-            <version>${project.version}</version>
+            <version>${storm.version}</version>
         </dependency>
         <dependency>
             <groupId>org.apache.storm</groupId>
             <artifactId>multilang-python</artifactId>
-            <version>${project.version}</version>
+            <version>${storm.version}</version>
         </dependency>
         <dependency>
             <groupId>commons-collections</groupId>
@@ -115,23 +116,23 @@
         <dependency>
             <groupId>org.apache.storm</groupId>
             <artifactId>storm-metrics</artifactId>
-            <version>${project.version}</version>
+            <version>${storm.version}</version>
         </dependency>
         <dependency>
             <groupId>org.apache.storm</groupId>
             <artifactId>storm-kafka</artifactId>
-            <version>${project.version}</version>
+            <version>${storm.version}</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.apache.storm</groupId>
             <artifactId>storm-hdfs</artifactId>
-            <version>${project.version}</version>
+            <version>${storm.version}</version>
         </dependency>
         <dependency>
             <groupId>org.apache.storm</groupId>
             <artifactId>storm-hbase</artifactId>
-            <version>${project.version}</version>
+            <version>${storm.version}</version>
         </dependency>
         <dependency>
             <groupId>org.apache.kafka</groupId>
@@ -145,7 +146,7 @@
         <dependency>
             <groupId>org.apache.storm</groupId>
             <artifactId>storm-redis</artifactId>
-            <version>${project.version}</version>
+            <version>${storm.version}</version>
         </dependency>
     </dependencies>
 

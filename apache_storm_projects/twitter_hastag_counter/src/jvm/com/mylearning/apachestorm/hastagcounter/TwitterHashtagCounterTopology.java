@@ -42,8 +42,3 @@ public class TwitterHashtagCounterTopology {
         cluster.shutdown();
     }
 }
-
-// uZlPpY1LiY5j2oLRubs5OQ4IT
-// TYby2ftxZaeSpFq1YREnJIkoKnXmpYQwk1uwTXpUnmIGvPdJ4z
-// 76019438-YrEnygqb6zm8xzDdRJcwQwEc1RBNauoQKR4vkzYAQ
-// 8tHL0zb23E2cUidu62i6hCRrrlxJ3xXPm40un7rDm4LRk

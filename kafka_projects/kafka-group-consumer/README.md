@@ -11,6 +11,7 @@
 
 `$ sh zookeeper_scripts/start_zookeeper.sh`
 
+
 3. Start kafka broker
 
 `$ sh kafka_scripts/start_broker.sh  `
